@@ -48,7 +48,7 @@ func getPost(w http.ResponseWriter, r *http.Request) {
 	var idParam string = mux.Vars(r)["id"]
 	id, err := strconv.Atoi(idParam)
 	if err != nil {
-		// there was an error
+		// there was an error - status 400 
 		w.WriteHeader(400)
 		w.Write([]byte("ID could not be converted to integer"))
 		return
@@ -154,7 +154,6 @@ func deletePost(w http.ResponseWriter, r *http.Request) {
 	}
 
 	// Delete the post from the slice
-	// https://github.com/golang/go/wiki/SliceTricks#delete
 	posts = append(posts[:id], posts[id+1:]...)
 
 	w.WriteHeader(200)

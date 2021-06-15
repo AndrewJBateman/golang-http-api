@@ -1,6 +1,12 @@
 # :zap: Golang Http API
 
 * Golang JSON REST API using [Gorilla Mux](https://github.com/gorilla/mux) as the HTTP router and URL matcher. Tutorial code from [Devstackr, Youtube video: Build a RESTful HTTP API in Golang w/ Mux](https://www.youtube.com/watch?v=HmiybuiEZI4&t=175s)
+* **Note:** to open web links in a new window use: _ctrl+click on link_
+
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/golang-http-api?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/golang-http-api?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/golang-http-api?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/golang-http-api?style=plastic)
 
 ## :page_facing_up: Table of contents
 
@@ -14,6 +20,7 @@
   * [:cool: Features](#cool-features)
   * [:clipboard: Status & To-do list](#clipboard-status--to-do-list)
   * [:clap: Inspiration](#clap-inspiration)
+  * [:file_folder: License](#file_folder-license)
   * [:envelope: Contact](#envelope-contact)
 
 ## :books: General info
@@ -61,7 +68,7 @@ func getPost(w http.ResponseWriter, r *http.Request) {
 ## :clipboard: Status & To-do list
 
 * Status: Working
-* To-do: comment code
+* To-do: Nothing
 
 ## :clap: Inspiration
 
@@ -69,6 +76,10 @@ func getPost(w http.ResponseWriter, r *http.Request) {
 * [Hugo Johnsson: Medium article REST-API with Golang and Mux](https://medium.com/@hugo.bjarred/rest-api-with-golang-and-mux-e934f581b8b5)
 * [Go Web Examples: Routing (using gorilla/mux)](https://gowebexamples.com/routes-using-gorilla-mux/)
 
+## :file_folder: License
+
+* This project is licensed under the terms of the MIT license.
+
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com
